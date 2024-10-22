@@ -4,5 +4,5 @@
  */
 
 add_action( 'wp_enqueue_scripts', function() {
-	wp_enqueue_script( 'disable-header-login', content_url() . '/mu-plugins/assets/js/login.js', array( 'openlab-nav-js' ) );
+	wp_enqueue_script( 'disable-header-login', content_url() . '/mu-plugins/disable-openlab-loginform.js', array( 'openlab-nav-js' ) );
 } );
